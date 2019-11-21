@@ -7,13 +7,16 @@ class CVSIO():
         self.dataName = inputFile;
         self.outputName = outputFile;
 
+        # Opens files
         self.data = open(self.dataName, 'r', encoding='utf8');
         self.output = open(self.outputName, 'w', encoding='utf8');
         self.writer =  csv.writer(self.output, delimiter=',', lineterminator='\n');
-        self.write(("Seed", "Char"));
+
+        # Creates header for the output file
+        self.write(("Seed", "Char", "ASCII"));
 
     def close(self, file):
-        self.file.close();
+        file.close();
 
     def write(self, elems):
         self.writer.writerow(elems);
@@ -21,23 +24,37 @@ class CVSIO():
     def size(self, fileName):
         return os.path.getsize(self.fileName);
 
-    def fnameI(self):
-        return self.outputName;
+    def fI(self):
+        return self.data;
 
-    def fnameO(self):
-        return self.dataName;
+    def fO(self):
+        return self.output;
 
     def readFile(self):
-        for line in self.dataName:
-            lineLength = line.length();
+        for line in self.fI():
+            lineLength = len(line);  
+            # If we want to get ride of new lines: line = line.strip()
+
+            # Ensures that the line has at least 21 lines
             if (lineLength >= 21):
                 for i in range(0, lineLength - 20):
-                    self.write((line [i:i+20], line [i+20]));
+                    # Writes the seed, char, and ascii value respectively to output file
+                    self.write((line [i:i+20], line [i+20], ord(line [i+20])));
 
 
 def main():
-    ModelIO = CVSIO(sys.argv[1], sys.argv[2]);
-    ModelIO.readFile;
+    # Input and Output filenames are read from the command line
+    inputFile = sys.argv [1]
+    outputFile = sys.argv [2]
+    
+    # Creates IO Class and reads the file
+    ModelIO = CVSIO(inputFile, outputFile);
+    ModelIO.readFile();
+
+    # Closes files
+    ModelIO.close(ModelIO.fI());
+    ModelIO.close(ModelIO.fO());
+    print("Done");
 
 if __name__ == "__main__":
     main();
