@@ -1,4 +1,4 @@
-# Lyric-Gen
+# AI Lyric Generation and Genre Detection
 Created by Jacob Seiler, James McCarron, Ted Brownlow, and Joshua Neizer.
 
 Do you have the musical talent of Freddie Mercury, but the lyrical talent of a sock?
