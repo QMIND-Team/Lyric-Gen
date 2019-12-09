@@ -1,0 +1,241 @@
+Genre,Artists
+Pop,Ariana Grande
+Pop,Post Malone
+Pop,Khalid
+Pop,Jonas Brothers
+Pop,Halsey
+Pop,Panic! At The Disco
+Pop,Shawn Mendes
+Pop,Billie Eilish
+Pop,Lizzo
+Pop,Ed Sheeran
+Country,Luke Combs
+Country,Dan + Shay
+Country,Kane Brown
+Country,Thomas Rhett
+Country,Florida Georgia Line
+Country,Chris Stapleton
+Country,Morgan Wallen
+Country,Maren Morris
+Country,Jason Aldean
+Country,Blake Shelton
+Country,Luke Bryan
+Country,Brett Young
+Country,Carrie Underwood
+Country,Jon Pardi
+Country,Zac Brown Band
+Country,George Strait
+Country,Old Dominion
+Country,Eric Church
+Country,Lee Brice
+Country,Kacey Musgraves
+Country,Kelsea Ballerini
+Country,Dierks Bentley
+Country,Blanco Brown
+Country,Jordan Davis
+Country,Tim McGraw
+Country,Chris Lane
+Country,Cody Johnson
+Country,Mitchell Tenpenny
+Country,Chase Rice
+Country,Russell Dickerson
+Country,Brooks &amp; Dunn
+Country,Scotty McCreery
+Country,Kenny Chesney
+Country,Jimmie Allen
+Country,Cole Swindell
+Country,Midland
+Country,Matt Stell
+Country,Keith Urban
+Country,Sam Hunt
+Country,Rascal Flatts
+Country,Justin Moore
+Country,Riley Green
+Country,Chris Young
+Country,Brett Eldredge
+Country,Dustin Lynch
+Country,Eli Young Band
+Country,Jake Owen
+Country,Lady Antebellum
+Country,Chris Janson
+Country,Brantley Gilbert
+Rock,Panic! At The Disco
+Rock,Queen
+Rock,Imagine Dragons
+Rock,twenty one pilots
+Rock,The Beatles
+Rock,Tool
+Rock,Elton John
+Rock,lovelytheband
+Rock,Mumford &amp; Sons
+Rock,Hozier
+Rock,Fleetwood Mac
+Rock,The Rolling Stones
+Rock,Eagles
+Rock,Metallica
+Rock,Slipknot
+Rock,Five Finger Death Punch
+Rock,The Lumineers
+Rock,Billy Joel
+Rock,Vampire Weekend
+Rock,Tom Petty And The Heartbreakers
+Rock,Creedence Clearwater Revival
+Rock,Journey
+Rock,The Black Keys
+Rock,Cage The Elephant
+Rock,Guns N' Roses
+Rock,The 1975
+Rock,Weezer
+Rock,Motley Crue
+Rock,AJR
+Rock,Bob Seger
+Rock,AC/DC
+Rock,Blink-182
+Rock,Greta Van Fleet
+Rock,Nirvana
+Rock,Red Hot Chili Peppers
+Rock,Tame Impala
+Rock,Paul McCartney
+Rock,Disturbed
+Rock,George Ezra
+Rock,Bon Jovi
+Rock,Muse
+Rock,Godsmack
+Rock,Oliver Tree
+Rock,Lynyrd Skynyrd
+Rock,Shinedown
+Rock,Simon &amp; Garfunkel
+Rock,YUNGBLUD
+Rock,John Mayer
+Rock,Pink Floyd
+Rock,Of Monsters And Men
+HipHop,Post Malone
+HipHop,Khalid
+HipHop,Drake
+HipHop,Lil Nas X
+HipHop,Travis Scott
+HipHop,Juice WRLD
+HipHop,DaBaby
+HipHop,Cardi B
+HipHop,Lil Baby
+HipHop,Meek Mill
+HipHop,A Boogie Wit da Hoodie
+HipHop,Lizzo
+HipHop,21 Savage
+HipHop,XXXTENTACION
+HipHop,Chris Brown
+HipHop,Kodak Black
+HipHop,Gunna
+HipHop,J. Cole
+HipHop,Young Thug
+HipHop,Lil Tecca
+HipHop,YoungBoy Never Broke Again
+HipHop,YNW Melly
+HipHop,Ella Mai
+HipHop,Swae Lee
+HipHop,Eminem
+HipHop,NF
+HipHop,DJ Khaled
+HipHop,Offset
+HipHop,Lil Wayne
+HipHop,"Tyler, The Creator"
+HipHop,Future
+HipHop,Blueface
+HipHop,Summer Walker
+HipHop,Nipsey Hussle
+HipHop,Mustard
+HipHop,Megan Thee Stallion
+HipHop,Lil Uzi Vert
+HipHop,Polo G
+HipHop,6ix9ine
+HipHop,City Girls
+HipHop,Trippie Redd
+HipHop,Kanye West
+HipHop,Sheck Wes
+HipHop,Bruno Mars
+HipHop,Beyonce
+HipHop,Migos
+HipHop,Metro Boomin
+HipHop,Calboy
+HipHop,Nicki Minaj
+HipHop,Kendrick Lamar
+Christian,Lauren Daigle
+Christian,for KING &amp; COUNTRY
+Christian,Kanye West
+Christian,Hillsong UNITED
+Christian,Casting Crowns
+Christian,Elevation Worship
+Christian,Hillsong Worship
+Christian,MercyMe
+Christian,Skillet
+Christian,Bethel Music
+Christian,Chris Tomlin
+Christian,Tauren Wells
+Christian,Crowder
+Christian,tobyMac
+Christian,Zach Williams
+Christian,Danny Gokey
+Christian,Cory Asbury
+Christian,Phil Wickham
+Christian,I AM THEY
+Christian,We Are Messengers
+Christian,Pat Barrett
+Christian,Josh Turner
+Christian,Jeremy Camp
+Christian,Jonathan David &amp; Melissa Helser
+Christian,Vertical Worship
+Christian,Micah Tyler
+Christian,Josh Baldwin
+Christian,Unspoken
+Christian,newsboys
+Christian,Matthew West
+Christian,Big Daddy Weave
+Christian,Switch
+Christian,Francesca Battistelli
+Christian,Cochren &amp; Co.
+Christian,Jordan Feliz
+Christian,Building 429
+Christian,Sanctus Real
+Christian,Ryan Stevenson
+Christian,Riley Clemmons
+Christian,NEEDTOBREATHE
+Christian,Lecrae
+Christian,Austin French
+Christian,Dan Bremnes
+Christian,Jamie Kimmett
+Christian,The Afters
+Christian,Matt Maher
+Christian,Jason Gray
+Christian,Switchfoot
+Christian,Amy Grant
+Christian,Cody Carnes
+Reggae,Stick Figure
+Reggae,Pepper
+Reggae,Rebelution
+Reggae,The Movement
+Reggae,Collie Buddz
+Reggae,Koffee
+Reggae,Slightly Stoopid
+Reggae,Shaggy
+Reggae,Steel Pulse
+Reggae,Iration
+Blues,Tedeschi Trucks Band
+Blues,Joe Bonamassa
+Blues,Peter Frampton
+Blues,Kenny Wayne Shepherd
+Blues,Billy Gibbons
+Blues,"Christone ""Kingfish"" Ingram"
+Blues,Buddy Guy
+Blues,Keb' Mo'
+Blues,The Marcus King Band
+Blues,Beth Hart
+Jazz,Michael Buble
+Jazz,John Coltrane
+Jazz,Van Morrison
+Jazz,Tony Bennett
+Jazz,Diana Krall
+Jazz,Trisha Yearwood
+Jazz,Willie Nelson
+Jazz,Martina McBride
+Jazz,"Harry Connick, Jr."
+Jazz,Jon Batiste
