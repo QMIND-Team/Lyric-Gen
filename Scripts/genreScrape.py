@@ -21,8 +21,6 @@ def main():
         'Accept-Language': 'en-US,en;q=0.8',
         'Connection': 'keep-alive'}
 
-    genres = ['pop-songs','top-country', 'top-rock', 'top-r-and-b-hip-hop', 'top-christian', 'reggae-albums', 'blues-albums', 'jazz-albums']
-
     genresDict = {'pop-songs' : 'Pop',
                 'top-country' : 'Country', 
                 'top-rock' : 'Rock', 
