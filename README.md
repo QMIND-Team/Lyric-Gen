@@ -1,8 +1,12 @@
-# Lyric-Gen
-Created by Jacob Seiler
+# AI Lyric Generation and Genre Detection
+Created by Jacob Seiler, James McCarron, Ted Brownlow, and Joshua Neizer.
 
-James McCarron
+Do you have the musical talent of Freddie Mercury, but the lyrical talent of a sock?
 
+<<<<<<< HEAD
 Ted Brownlow
 
 Joshua Neizer   
+=======
+Fear no more—our team is building a deep learning algorithm to generate song lyrics given a key term and genre. Specifically, we will be using a recursive neural network for the lyric generation model, and a convolutional neural network for the genre detection model. The data we will use for our algorithm will be scraped from a dataset of songs and the [Genius API](https://genius.com/developers). We are also planning to deploy a web API and web application that will interact with our lyric gen. algorithm.
+>>>>>>> 4f591210a852afcfcd3e4228118703f2ddd30d5e
