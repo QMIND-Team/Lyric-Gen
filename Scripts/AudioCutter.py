@@ -20,3 +20,5 @@ def create_samples(original_path, output_folder_path, output_file_name, count=0)
         count += 1
 
         os.remove(original_path)
+	
+	return count
