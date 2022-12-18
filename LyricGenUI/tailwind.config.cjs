@@ -3,6 +3,9 @@ const config = {
 
   theme: {
     extend: {},
+    container: {
+      center: true,
+    }
   },
 
   plugins: [],
