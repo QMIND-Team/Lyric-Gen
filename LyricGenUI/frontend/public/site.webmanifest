@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "AI Lyric Generation and Genre Detection",
+    "short_name": "Lyric Gen",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
