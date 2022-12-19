@@ -1,10 +1,17 @@
 <script lang="ts">
-    let count: number = 0;
-    const increment = () => {
-        count += 1;
-    };
+    let files: FileList;
+
+    $: if (files) {
+        console.log("Hello files", files)
+    }
 </script>
 
-<button on:click={increment}>
-    count is {count}
-</button>
+<input
+	accept="audio/*"
+	bind:files
+	type="file"
+/>
+
+{#if files}
+	<p>Predicting...</p>
+{/if}
