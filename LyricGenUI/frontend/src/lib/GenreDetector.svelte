@@ -1,28 +1,30 @@
 <script lang="ts">
     let files: FileList;
+    let result = null;
 
-    $: if (files) {
-        console.log("Hello files", files);
+    async function predictGenre(file: File) {
+        const formData = new FormData();
+        formData.append("file", file);
 
-        // const formData = new FormData();
-        // formData.append("file", files.item(0));
-        // fetch("http://localhost:5000/genre", {
-        //     method: "POST",
-        //     body: formData,
-        // }).then(res => {
-        //     console.log(res)
-        // });
-
-        fetch("http://localhost:5000/genre", {
+        return await fetch("http://localhost:5000/genre", {
             method: "POST",
-        }).then(res => {
-            console.log(res.body)
+            body: formData,
         });
+    }
+
+    $: if (files && files[0]) {
+        result = predictGenre(files[0]);
     }
 </script>
 
 <input accept="audio/*" bind:files type="file" />
 
-{#if files}
-    <p>Predicting...</p>
+{#if files && files[0]}
+    {#await result}
+        <p>Predicting...</p>
+    {:then res}
+        <p>The genre is {res}</p>
+    {:catch error}
+        <p class="text-red-600">{error.message}</p>
+    {/await}
 {/if}
