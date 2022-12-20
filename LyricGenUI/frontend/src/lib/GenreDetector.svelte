@@ -1,4 +1,6 @@
 <script lang="ts">
+    const genres = ["blues", "classical", "country", "disco", "hiphop", "jazz", "metal", "pop", "reggae", "rock"];
+
     let files: FileList;
     let result = null;
 
@@ -9,7 +11,8 @@
         return await fetch("http://localhost:5000/genre", {
             method: "POST",
             body: formData,
-        });
+        })
+        .then(res => res.json());
     }
 
     $: if (files && files[0]) {
@@ -22,8 +25,8 @@
 {#if files && files[0]}
     {#await result}
         <p>Predicting...</p>
-    {:then res}
-        <p>The genre is {res}</p>
+    {:then { result }}
+        <p>The genre is {genres[result]}</p>
     {:catch error}
         <p class="text-red-600">{error.message}</p>
     {/await}
